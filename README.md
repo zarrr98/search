@@ -15,7 +15,7 @@ client side
 
 as we said before, in src we have the client side codes:
 
--assets folder containes images (we have used one background image for the app) as well as scss and css files (we have used SASS to style our app. the compiled sass filed will be saved in css folder).
+-assets folder containes images (we have used one background image for the app) as well as scss and css files (we have used SASS to style our app. the compiled sass files will be saved in css folder).
 you can see that we have separate files for variables , mixins , general styles and main page styles in scss folder.
 
 -js folder containes JavaScript files which has two folders : screens and components. in components folder we have implemented reusable components that could be used anywhere.
@@ -29,6 +29,10 @@ strings.js(containes constant string values that we want to use in our app. like
 
 note : we have used react-bootstrap in this project.
 
+
+How we search the text input in the list and filter the items ?
+Let's have some explanation of how we do all this? How we search a text? in MainPage.js we fetch the file contents from the server once the app loads. Then we assign the fetched array to items and filteredItems (the components states).
+We show the filteredItems in the list which is equal to all the items at first. When user enters some text in the search bar, it gets saved in a state called searchedText in SearchSegment. When the user clicks on the search button, we filter the items and search for ones that contain that text and assign it to filteredItems.
 
 How to run this app?
 
