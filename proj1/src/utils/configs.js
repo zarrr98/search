@@ -5,9 +5,6 @@ export const URL = {
   baseURL: "localhost",
   path: "apis",
   port: "4000",
-  // protocol: "https",
-  // baseURL: "transis.herokuapp.com",
-  // port: "/apis",
 };
 
 

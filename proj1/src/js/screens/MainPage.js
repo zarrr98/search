@@ -13,7 +13,7 @@ export default class MainPage extends React.Component {
     items: [],
     filteredItems: [],
     errorMessage: "",
-  };
+  }; 
 
   filterItems = (searchedText) => {
     console.log("in filter items : ", searchedText);
