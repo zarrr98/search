@@ -32,5 +32,10 @@ note : we have used react-bootstrap in this project.
 
 How to run this app?
 
+1. In order to run this app you need to have Node js installed on your computer. So if you don't have it already, go to address https://nodejs.org/en/download/ and download and install it.
+2. In proj1 directory, run "npm install". This command installs the depencencies.
+3. In proj1 directory, run "node server/server.js". This command will run the server side.
+4. In some other command prompt (not in the one you used in number 3 and the server is running ),In proj1 directory, run "npm start". This command will run the client side.
+5. wait till the app get opened in http://localhost:3000/ .
 
 
