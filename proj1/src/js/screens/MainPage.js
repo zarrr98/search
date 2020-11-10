@@ -73,6 +73,7 @@ export default class MainPage extends React.Component {
         {this.state.errorMessage ? (
           <h3 className="text-danger text-center">{this.state.errorMessage}</h3>
         ) : null}
+        <p>Test changes!!!!!</p>
       </div>
     );
   }
